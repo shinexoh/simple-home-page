@@ -43,19 +43,19 @@ body #toggle-theme {
 }
 
 body #toggle-theme:hover,
-header .avatar:hover,
-header .links a:hover {
+main .avatar:hover,
+main .links a:hover {
     transform: scale(1.1);
 }
 
-header {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header .avatar {
+main .avatar {
     width: 5.8rem;
     height: auto;
     border-radius: 50%;
@@ -64,48 +64,48 @@ header .avatar {
     object-fit: cover;
 }
 
-header h1 {
+main h1 {
     color: var(--primary-text-color);
     margin-top: 0.5rem;
     font-size: 1.5rem;
     letter-spacing: 1px;
 }
 
-header p {
+main p {
     margin-top: 0.5rem;
     color: var(--primary-text-color);
     font-weight: 500;
     letter-spacing: 0.9px;
 }
 
-header .links {
+main .links {
     display: flex;
     margin-top: 1rem;
     gap: 1rem;
 }
 
-header .links a {
+main .links a {
     font-size: 1.6rem;
     text-decoration: none;
     color: var(--links-icon-color);
 }
 
-header .links .ri-github-line:hover {
+main .links .ri-github-line:hover {
     color: var(--github-hover-color);
 }
 
-header .links .ri-youtube-line:hover {
+main .links .ri-youtube-line:hover {
     color: red;
 }
 
-header .links .ri-twitter-line:hover {
+main .links .ri-twitter-line:hover {
     color: #1DA1F2;
 }
 
-header .links .ri-instagram-line:hover {
+main .links .ri-instagram-line:hover {
     color: #E1306C;
 }
 
-header .links .ri-spotify-line:hover {
+main .links .ri-spotify-line:hover {
     color: #1DB954;
 }
